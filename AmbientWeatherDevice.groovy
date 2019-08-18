@@ -31,6 +31,10 @@ metadata {
 		//Light
 		attribute "solarradiation", "number"
         attribute "uv", "number"
+	    	
+	    //Indoor
+	attribute "indoortemperature", "number"
+	attribute "indoorhumidity", "number"
     }
 	preferences {
         section("Preferences") {
